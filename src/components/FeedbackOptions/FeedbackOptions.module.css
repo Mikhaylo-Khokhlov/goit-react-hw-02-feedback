@@ -1,0 +1,19 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: unset;
+  background-color: teal;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
